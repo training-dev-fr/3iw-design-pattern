@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    margin:0;
+    height: 100vh;
+    color: white;
+}
+
+.builder{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #202020;
+}
+
+.builder .tool{
+    padding: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #404040;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: #404040;
+}
