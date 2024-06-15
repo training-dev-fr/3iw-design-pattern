@@ -2,12 +2,12 @@ import Input from "./Field/Input.js";
 import Text from "./Field/Text.js";
 
 class Factory{
-    constructor(name){
-        if(name === "Input"){
-            return new Input();
+    constructor(type,name,label){
+        if(type === "Input"){
+            return new Input(name,label);
         }
-        if(name === "Text"){
-            return new Text();
+        if(type === "Text"){
+            return new Text(name,label);
         }
     }
 }
