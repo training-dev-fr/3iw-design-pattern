@@ -1,0 +1,13 @@
+[{
+    "title":"Ma première image",
+    "type":"image",
+    "picture":"/image01.png"
+},{
+    "title":"Ma deuxième image",
+    "type":"image",
+    "picture":"/image02.png"
+},{
+    "title":"Ma première vidéo",
+    "type":"video",
+    "picture":"/video01.png"
+}]
